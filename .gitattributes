@@ -1,0 +1,7 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+ text=lf
+ *.py linguist-vendored eol=lf
+ *.cypher linguist-vendored eol=lf
+ *.java linguist-vendored eol=lf
+ CHANGELOG.md export-ignore
